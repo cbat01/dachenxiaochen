@@ -289,6 +289,23 @@ p
 	/*border: 1px solid #fff;*/
 }
 
+.card a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.card a:hover
+{
+	text-decoration: underline;
+	opacity: 0.9;
+}
+
+.card p
+{
+	line-height: 28px;
+}
+
 .card:first-child
 {
 	background-color: rgba(0,0,0,0.04);
