@@ -23,6 +23,7 @@ img
 	border: 1px solid #ddd;
 	position: absolute;
 	transition: 1s;
+	z-index: 1;
 }
 
 img:hover
@@ -30,6 +31,7 @@ img:hover
 	transform: rotate(0deg);
 	transform: scale(1.2);
 	box-shadow: 10px 10px 15px #ccc;
+	z-index: 2;
 }
 
 .pic1
