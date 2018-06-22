@@ -47,7 +47,7 @@
         }
 
         img#logo {
-            width: 128px;
+            width: 228px;
             background-size: cover;
             border-radius: 200px;
             box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
@@ -99,10 +99,10 @@
 
 <body>
 <div class="cs">
-    <img src="img/littlecute.jpg" id="logo">
+    <img src="img/us.jpg" id="logo">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
-<p class="text" style="color: #ed3073;">
+<p class="text" style="color: #ed3073;font-size: 25px;">
     We fell in love
     <br/>
     <span id="span_dt_dt"></span>
@@ -123,7 +123,7 @@
         e_minsold = (e_hrsold - hrsold) * 60;
         minsold = Math.floor((e_hrsold - hrsold) * 60);
         seconds = Math.floor((e_minsold - minsold) * 60);
-        span_dt_dt.innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+        span_dt_dt.innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒..";
     }
 
     show_date_time();
