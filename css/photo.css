@@ -22,7 +22,7 @@ img
 	background: #fff;
 	border: 1px solid #ddd;
 	position: absolute;
-	transition: 1s;
+	transition: 0.5s;
 	z-index: 1;
 }
 
