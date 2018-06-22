@@ -1,0 +1,90 @@
+body
+{
+	background: #eee;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.container
+{
+	width: 100%;
+	height: 950px;
+	margin: 60px auto;
+	position: relative;
+}
+
+img
+{
+	padding: 10px 10px 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+	position: absolute;
+	transition: 1s;
+}
+
+img:hover
+{
+	transform: rotate(0deg);
+	transform: scale(1.2);
+	box-shadow: 10px 10px 15px #ccc;
+}
+
+.pic1
+{
+	left: 60px;
+	top: 30px;
+	transform: rotate(-15deg);
+}
+
+.pic2
+{
+	left: 350px;
+	top: 30px;
+	transform: rotate(-5deg);
+}
+.pic3
+{
+	left: 750px;
+	top: 25px;
+	transform: rotate(-15deg);
+}
+.pic4
+{
+	left: 1100px;
+	top: 20px;
+	transform: rotate(10deg);
+}
+.pic5
+{
+	left: 120px;
+	top: 400px;
+	transform: rotate(-5deg);
+}
+
+.pic6
+{
+	left: 450px;
+	top: 440px;
+	transform: rotate(-10deg);
+}
+.pic7
+{
+	left: 890px;
+	top: 450px;
+	transform: rotate(5deg);
+}
+.pic8
+{
+	left: 1350px;
+	top: 280px;
+	transform: rotate(-5deg);
+}
+.pic9
+{
+	left: 1350px;
+	top: 560px;
+	transform: rotate(10deg);
+}
